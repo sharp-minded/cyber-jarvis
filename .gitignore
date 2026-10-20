@@ -1,0 +1,40 @@
+# ─── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+
+# ─── IDE ───────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─── Env ───────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Runtime Data (do NOT commit) ─────────────────────────
+workspace/rag_db/
+workspace/kb_cache/
+workspace/loot/
+workspace/reports/
+workspace/screenshots/
+workspace/custom_tools/
+workspace/*.json
+workspace/.vault.enc
+workspace/.authorized
+
+# ─── OS ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Logs ──────────────────────────────────────────────────
+*.log
+logs/

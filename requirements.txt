@@ -1,0 +1,63 @@
+# ═══════════════════════════════════════════════════════════════
+#  CYBER JARVIS v6.0 — Dependencies
+#  FIX: voicepipe (hallucinated) → SpeechRecognition + pyttsx3
+# ═══════════════════════════════════════════════════════════════
+
+# ─── Core ──────────────────────────────────────────────────
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langchain-chroma>=0.1.4
+langchain-huggingface>=0.1.2
+sentence-transformers>=3.0.0
+langgraph>=0.2.0
+openai>=1.50.0
+requests>=2.32.0
+
+# ─── Remote (SSH to Kali) ──────────────────────────────────
+paramiko>=3.4.0
+scp>=0.14.5
+
+# ─── Data ──────────────────────────────────────────────────
+chromadb>=0.5.0
+neo4j>=5.24.0
+psycopg2-binary>=2.9.9
+redis>=5.0.0
+celery>=5.4.0
+sqlalchemy>=2.0.0
+
+# ─── Voice (Windows) — REAL libraries ──────────────────────
+pyttsx3>=2.90
+SpeechRecognition>=3.10.0
+pvporcupine>=3.0.2
+pyaudio>=0.2.14
+sounddevice>=0.4.7
+numpy>=1.26.0
+
+# ─── News & Intel ──────────────────────────────────────────
+feedparser>=6.0.11
+beautifulsoup4>=4.12.0
+
+# ─── Notifications - WhatsApp ONLY ─────────────────────────
+pywhatkit>=5.4
+twilio>=9.3.0
+
+# ─── Screenshots (PoC) ─────────────────────────────────────
+playwright>=1.48.0
+
+# ─── Scoring ───────────────────────────────────────────────
+cvss>=3.4
+
+# ─── Security ──────────────────────────────────────────────
+cryptography>=43.0.0
+keyring>=25.4.0
+
+# ─── UI ────────────────────────────────────────────────────
+rich>=13.9.0
+streamlit>=1.40.0
+plotly>=5.24.0
+pandas>=2.2.0
+
+# ─── Utils ─────────────────────────────────────────────────
+python-dotenv>=1.0.1
+pyyaml>=6.0.2
